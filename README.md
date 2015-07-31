@@ -1,8 +1,6 @@
 # Globelabs::Charging
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/globelabs/charging`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Simple wrapper for [Globe Labs](http://www.globelabs.com.ph/) Charging api
 
 ## Installation
 
@@ -22,7 +20,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'globelabs-charging'
+
+charging = Globelabs::Charging.new
+
+optiosn = {
+  amount: 1.00,
+  description: 'hello',
+  msisdn: '091500000000',
+  reference_code: '13420000001',
+  access_token: 'wr29u34sdjfjaoer
+}
+
+response = charging.charge_to options
+```
 
 ## Development
 
