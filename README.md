@@ -2,6 +2,8 @@
 
 Simple wrapper for [Globe Labs](http://www.globelabs.com.ph/) Charging api
 
+[![Build Status](https://travis-ci.org/BernardTolosajr/ruby-globelabs-charging.svg?branch=master)](https://travis-ci.org/BernardTolosajr/ruby-globelabs-charging.svg?branch=master)
+
 ## Installation
 
 Add this line to your application's Gemfile:
