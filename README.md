@@ -1,4 +1,4 @@
-# Globelabs::Charging
+# globelabs charging
 
 Simple wrapper for [Globe Labs](http://www.globelabs.com.ph/) Charging api
 
