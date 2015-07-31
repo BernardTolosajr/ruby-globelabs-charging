@@ -1,5 +1,5 @@
 module Globelabs
-  module Charging
-    VERSION = "0.1.0"
+  class Charging
+    VERSION = '0.1.0'
   end
 end
